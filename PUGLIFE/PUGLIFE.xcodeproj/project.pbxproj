@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CB473AF1773EAB100B64ED8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB473AE1773EAB100B64ED8 /* UIKit.framework */; };
+		9CB473B11773EAB100B64ED8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB473B01773EAB100B64ED8 /* Foundation.framework */; };
+		9CB473B31773EAB100B64ED8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB473B21773EAB100B64ED8 /* CoreGraphics.framework */; };
+		9CB473B91773EAB100B64ED8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CB473B71773EAB100B64ED8 /* InfoPlist.strings */; };
+		9CB473BB1773EAB100B64ED8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB473BA1773EAB100B64ED8 /* main.m */; };
+		9CB473BF1773EAB100B64ED8 /* PUGLIFEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB473BE1773EAB100B64ED8 /* PUGLIFEAppDelegate.m */; };
+		9CB473C11773EAB100B64ED8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB473C01773EAB100B64ED8 /* Default.png */; };
+		9CB473C31773EAB100B64ED8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB473C21773EAB100B64ED8 /* Default@2x.png */; };
+		9CB473C51773EAB100B64ED8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB473C41773EAB100B64ED8 /* Default-568h@2x.png */; };
+		9CB473C81773EAB100B64ED8 /* PUGLIFERootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB473C71773EAB100B64ED8 /* PUGLIFERootViewController.m */; };
+		9CB473CB1773EAB100B64ED8 /* PUGLIFEDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB473CA1773EAB100B64ED8 /* PUGLIFEDataViewController.m */; };
+		9CB473CE1773EAB100B64ED8 /* PUGLIFEModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB473CD1773EAB100B64ED8 /* PUGLIFEModelController.m */; };
+		9CB473D11773EAB100B64ED8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB473CF1773EAB100B64ED8 /* MainStoryboard_iPhone.storyboard */; };
+		9CB473D41773EAB100B64ED8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB473D21773EAB100B64ED8 /* MainStoryboard_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CB473AB1773EAB100B64ED8 /* PUGLIFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUGLIFE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CB473AE1773EAB100B64ED8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CB473B01773EAB100B64ED8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CB473B21773EAB100B64ED8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CB473B61773EAB100B64ED8 /* PUGLIFE-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PUGLIFE-Info.plist"; sourceTree = "<group>"; };
+		9CB473B81773EAB100B64ED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CB473BA1773EAB100B64ED8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CB473BC1773EAB100B64ED8 /* PUGLIFE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PUGLIFE-Prefix.pch"; sourceTree = "<group>"; };
+		9CB473BD1773EAB100B64ED8 /* PUGLIFEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUGLIFEAppDelegate.h; sourceTree = "<group>"; };
+		9CB473BE1773EAB100B64ED8 /* PUGLIFEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUGLIFEAppDelegate.m; sourceTree = "<group>"; };
+		9CB473C01773EAB100B64ED8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9CB473C21773EAB100B64ED8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9CB473C41773EAB100B64ED8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9CB473C61773EAB100B64ED8 /* PUGLIFERootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUGLIFERootViewController.h; sourceTree = "<group>"; };
+		9CB473C71773EAB100B64ED8 /* PUGLIFERootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUGLIFERootViewController.m; sourceTree = "<group>"; };
+		9CB473C91773EAB100B64ED8 /* PUGLIFEDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUGLIFEDataViewController.h; sourceTree = "<group>"; };
+		9CB473CA1773EAB100B64ED8 /* PUGLIFEDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUGLIFEDataViewController.m; sourceTree = "<group>"; };
+		9CB473CC1773EAB100B64ED8 /* PUGLIFEModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PUGLIFEModelController.h; sourceTree = "<group>"; };
+		9CB473CD1773EAB100B64ED8 /* PUGLIFEModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PUGLIFEModelController.m; sourceTree = "<group>"; };
+		9CB473D01773EAB100B64ED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9CB473D31773EAB100B64ED8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CB473A81773EAB000B64ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB473AF1773EAB100B64ED8 /* UIKit.framework in Frameworks */,
+				9CB473B11773EAB100B64ED8 /* Foundation.framework in Frameworks */,
+				9CB473B31773EAB100B64ED8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CB473A21773EAB000B64ED8 = {
+			isa = PBXGroup;
+			children = (
+				9CB473B41773EAB100B64ED8 /* PUGLIFE */,
+				9CB473AD1773EAB100B64ED8 /* Frameworks */,
+				9CB473AC1773EAB100B64ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CB473AC1773EAB100B64ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CB473AB1773EAB100B64ED8 /* PUGLIFE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB473AD1773EAB100B64ED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CB473AE1773EAB100B64ED8 /* UIKit.framework */,
+				9CB473B01773EAB100B64ED8 /* Foundation.framework */,
+				9CB473B21773EAB100B64ED8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CB473B41773EAB100B64ED8 /* PUGLIFE */ = {
+			isa = PBXGroup;
+			children = (
+				9CB473BD1773EAB100B64ED8 /* PUGLIFEAppDelegate.h */,
+				9CB473BE1773EAB100B64ED8 /* PUGLIFEAppDelegate.m */,
+				9CB473C61773EAB100B64ED8 /* PUGLIFERootViewController.h */,
+				9CB473C71773EAB100B64ED8 /* PUGLIFERootViewController.m */,
+				9CB473C91773EAB100B64ED8 /* PUGLIFEDataViewController.h */,
+				9CB473CA1773EAB100B64ED8 /* PUGLIFEDataViewController.m */,
+				9CB473CC1773EAB100B64ED8 /* PUGLIFEModelController.h */,
+				9CB473CD1773EAB100B64ED8 /* PUGLIFEModelController.m */,
+				9CB473CF1773EAB100B64ED8 /* MainStoryboard_iPhone.storyboard */,
+				9CB473D21773EAB100B64ED8 /* MainStoryboard_iPad.storyboard */,
+				9CB473B51773EAB100B64ED8 /* Supporting Files */,
+			);
+			path = PUGLIFE;
+			sourceTree = "<group>";
+		};
+		9CB473B51773EAB100B64ED8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CB473B61773EAB100B64ED8 /* PUGLIFE-Info.plist */,
+				9CB473B71773EAB100B64ED8 /* InfoPlist.strings */,
+				9CB473BA1773EAB100B64ED8 /* main.m */,
+				9CB473BC1773EAB100B64ED8 /* PUGLIFE-Prefix.pch */,
+				9CB473C01773EAB100B64ED8 /* Default.png */,
+				9CB473C21773EAB100B64ED8 /* Default@2x.png */,
+				9CB473C41773EAB100B64ED8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CB473AA1773EAB000B64ED8 /* PUGLIFE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CB473D71773EAB100B64ED8 /* Build configuration list for PBXNativeTarget "PUGLIFE" */;
+			buildPhases = (
+				9CB473A71773EAB000B64ED8 /* Sources */,
+				9CB473A81773EAB000B64ED8 /* Frameworks */,
+				9CB473A91773EAB000B64ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PUGLIFE;
+			productName = PUGLIFE;
+			productReference = 9CB473AB1773EAB100B64ED8 /* PUGLIFE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CB473A31773EAB000B64ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PUGLIFE;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Adam Karst";
+			};
+			buildConfigurationList = 9CB473A61773EAB000B64ED8 /* Build configuration list for PBXProject "PUGLIFE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CB473A21773EAB000B64ED8;
+			productRefGroup = 9CB473AC1773EAB100B64ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CB473AA1773EAB000B64ED8 /* PUGLIFE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CB473A91773EAB000B64ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB473B91773EAB100B64ED8 /* InfoPlist.strings in Resources */,
+				9CB473C11773EAB100B64ED8 /* Default.png in Resources */,
+				9CB473C31773EAB100B64ED8 /* Default@2x.png in Resources */,
+				9CB473C51773EAB100B64ED8 /* Default-568h@2x.png in Resources */,
+				9CB473D11773EAB100B64ED8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				9CB473D41773EAB100B64ED8 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CB473A71773EAB000B64ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB473BB1773EAB100B64ED8 /* main.m in Sources */,
+				9CB473BF1773EAB100B64ED8 /* PUGLIFEAppDelegate.m in Sources */,
+				9CB473C81773EAB100B64ED8 /* PUGLIFERootViewController.m in Sources */,
+				9CB473CB1773EAB100B64ED8 /* PUGLIFEDataViewController.m in Sources */,
+				9CB473CE1773EAB100B64ED8 /* PUGLIFEModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CB473B71773EAB100B64ED8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB473B81773EAB100B64ED8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CB473CF1773EAB100B64ED8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB473D01773EAB100B64ED8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9CB473D21773EAB100B64ED8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CB473D31773EAB100B64ED8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CB473D51773EAB100B64ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CB473D61773EAB100B64ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CB473D81773EAB100B64ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PUGLIFE/PUGLIFE-Prefix.pch";
+				INFOPLIST_FILE = "PUGLIFE/PUGLIFE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CB473D91773EAB100B64ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PUGLIFE/PUGLIFE-Prefix.pch";
+				INFOPLIST_FILE = "PUGLIFE/PUGLIFE-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CB473A61773EAB000B64ED8 /* Build configuration list for PBXProject "PUGLIFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB473D51773EAB100B64ED8 /* Debug */,
+				9CB473D61773EAB100B64ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB473D71773EAB100B64ED8 /* Build configuration list for PBXNativeTarget "PUGLIFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB473D81773EAB100B64ED8 /* Debug */,
+				9CB473D91773EAB100B64ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CB473A31773EAB000B64ED8 /* Project object */;
+}
